@@ -27,13 +27,16 @@ const newDay = () => ({
 
 // Idėjos vietoj ekranų (naudosim ir automatinio perspėjimo blokui)
 const IDEAS = [
-  "Greitas pasivaikščiojimas lauke",
-  "Kvėpavimo 4-7-8 pratimas",
-  "5 min tempimai",
-  "Stalo žaidimas su šeima",
-  "Knygos 15 min",
-  "Akių mankšta 20-20-20",
-  "Užgerk stiklinę vandens ir pajudėk 100 žingsnių"
+  "Padaryk 100 žingsnių po klasę ar koridorių.",
+  "Kvėpuok 4–7–8 metodu 3 kartus.",
+  "Skirk 5 minutes tempimo pratimams.",
+  "Išgerk stiklinę vandens ir padaryk 20 pritūpimų.",
+  "Perskaityk 5 puslapius knygos.",
+  "2 minutes varyk arba perduok kamuolį.",
+  "Atlik 60 sąmoningų įkvėpimų ir iškvėpimų.",
+  "Padaryk 10 atsispaudimų (gali būti atrama į sieną).",
+  "Per 2 minutes susitvarkyk darbo vietą.",
+  "Parašyk 3 dalykus, už kuriuos esi dėkingas šiandien."
 ];
 const randomIdea = () => IDEAS[Math.floor(Math.random() * IDEAS.length)];
 
