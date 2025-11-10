@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="lt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="manifest" href="/manifest.webmanifest">
+    <meta name="theme-color" content="#000000"/>
+    <link rel="apple-touch-icon" href="/icons/icon-192.png">
+    <title>Sveikas įprotis – Prototipas</title>
+  </head>
+  <body class="bg-gray-50">
+    <noscript>Šiai programėlei reikia JavaScript.</noscript>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/sw.js');
+        });
+      }
+    </script>
+  </body>
+</html>
